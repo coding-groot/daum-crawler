@@ -28,7 +28,7 @@ class DaumSpider(scrapy.Spider):
         
         print("-------------STARTCRAWL---------------")
         
-        self.keyword = "박근혜"###########
+        self.keyword = "keyword"###########
         key_words=urllib.parse.quote(self.keyword)
         searchtext=re.compile('https?:\/\/news\.v\.daum.net\/v\/')
         new_link_2=[]
